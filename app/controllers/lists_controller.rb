@@ -3,7 +3,10 @@ class ListsController < ApplicationController
   end
 
   def index
+    @lists = List.all
   end
+
+  private
 
   def show
   end
